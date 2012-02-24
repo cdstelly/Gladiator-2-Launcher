@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.chkLog = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnSettings = new System.Windows.Forms.Button();
             this.pnlJoinGame.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -111,13 +112,12 @@
             this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "IP of Host";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // chkLog
             // 
             this.chkLog.AutoSize = true;
             this.chkLog.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.chkLog.Location = new System.Drawing.Point(51, 365);
+            this.chkLog.Location = new System.Drawing.Point(51, 427);
             this.chkLog.Name = "chkLog";
             this.chkLog.Size = new System.Drawing.Size(119, 17);
             this.chkLog.TabIndex = 5;
@@ -135,13 +135,24 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // btnSettings
+            // 
+            this.btnSettings.Location = new System.Drawing.Point(24, 365);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(146, 47);
+            this.btnSettings.TabIndex = 7;
+            this.btnSettings.Text = "Settings";
+            this.btnSettings.UseVisualStyleBackColor = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(406, 401);
+            this.ClientSize = new System.Drawing.Size(406, 456);
+            this.Controls.Add(this.btnSettings);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.chkLog);
             this.Controls.Add(this.pnlJoinGame);
@@ -169,6 +180,7 @@
         private System.Windows.Forms.Button btnJoin;
         private System.Windows.Forms.CheckBox chkLog;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnSettings;
     }
 }
 

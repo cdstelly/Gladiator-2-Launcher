@@ -13,14 +13,15 @@ namespace Gladiator_2_Launcher
 {
     public partial class Form1 : Form
     {
-        System.Diagnostics.Process          process;
-
+        System.Diagnostics.Process      process;
+        frmSettings                     settingsForm;
         public Form1()
         {
             InitializeComponent();
-            process               = new System.Diagnostics.Process();
-            process.StartInfo.FileName = @"C:\\UDK\\Binaries\\Win32\\UDK.exe";
+            process                           = new System.Diagnostics.Process();
+            process.StartInfo.FileName        = @"C:\\UDK\\Binaries\\Win32\\UDK.exe";
             process.StartInfo.UseShellExecute = false;
+            settingsForm                      = new frmSettings();
         }
 
         private void btnJoin_Click(object sender, EventArgs e)
@@ -46,6 +47,11 @@ namespace Gladiator_2_Launcher
             process.StartInfo.Arguments = "-server";
             process.StartInfo.Arguments = (chkLog.Checked == true) ? process.StartInfo.Arguments + " -log" : process.StartInfo.Arguments;
             process.Start();
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            settingsForm.ShowDialog();
         }
     }
 }

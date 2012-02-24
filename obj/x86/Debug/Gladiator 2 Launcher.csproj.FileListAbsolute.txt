@@ -7,4 +7,4 @@ C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Lau
 C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\bin\Debug\Gladiator 2 Launcher.pdb
 C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator 2 Launcher.exe
 C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator 2 Launcher.pdb
-C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator_2_Launcher.settings.resources
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator_2_Launcher.frmSettings.resources

@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Gladiator_2_Launcher
 {
-    public partial class settings : Form
+    public partial class frmSettings : Form
     {
-        public settings()
+        public frmSettings()
         {
             InitializeComponent();
         }
