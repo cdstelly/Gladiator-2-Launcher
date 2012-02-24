@@ -1,0 +1,10 @@
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator_2_Launcher.Form1.resources
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator_2_Launcher.Properties.Resources.resources
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\bin\Debug\Gladiator 2 Launcher.exe
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\bin\Debug\Gladiator 2 Launcher.pdb
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator 2 Launcher.exe
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator 2 Launcher.pdb
+C:\Users\Christopher Stelly\Programming\UDK\Gladiator 2 Launcher\Gladiator 2 Launcher\obj\x86\Debug\Gladiator_2_Launcher.settings.resources
