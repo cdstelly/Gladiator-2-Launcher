@@ -11,11 +11,11 @@ using Microsoft.VisualBasic;
 
 namespace Gladiator_2_Launcher
 {
-    public partial class Form1 : Form
+    public partial class frmGladiator2Launcher : Form
     {
         System.Diagnostics.Process      process;
         frmSettings                     settingsForm;
-        public Form1()
+        public frmGladiator2Launcher()
         {
             InitializeComponent();
             process                           = new System.Diagnostics.Process();

@@ -1,6 +1,6 @@
 ﻿namespace Gladiator_2_Launcher
 {
-    partial class Form1
+    partial class frmGladiator2Launcher
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGladiator2Launcher));
             this.btnSinglePlayer = new System.Windows.Forms.Button();
             this.btnJoinNetwork = new System.Windows.Forms.Button();
             this.btnHostNetwork = new System.Windows.Forms.Button();
@@ -110,7 +110,7 @@
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // frmGladiator2Launcher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,7 +124,7 @@
             this.Controls.Add(this.btnHostNetwork);
             this.Controls.Add(this.btnJoinNetwork);
             this.Controls.Add(this.btnSinglePlayer);
-            this.Name = "Form1";
+            this.Name = "frmGladiator2Launcher";
             this.Text = "Gladiator 2 Launcher";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
