@@ -19,7 +19,7 @@ namespace Gladiator_2_Launcher
         {
             InitializeComponent();
             process                           = new System.Diagnostics.Process();
-            process.StartInfo.FileName        = @"C:\\UDK\\Binaries\\Win32\\UDK.exe";
+            process.StartInfo.FileName        = Application.StartupPath + "\\Binaries\\Win32\\UDK.exe";
             process.StartInfo.UseShellExecute = false;
             settingsForm                      = new frmSettings();
         }
@@ -52,6 +52,25 @@ namespace Gladiator_2_Launcher
         private void btnSettings_Click(object sender, EventArgs e)
         {
             settingsForm.ShowDialog();
+        }
+
+        private void LaunchGame()
+        {
+            try
+            {
+                process.Start();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("File not found. Make sure that G2Launcher is located in the G2 Game folder.");
+            }
+
+        }
+
+        private void txtJoinIP_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btnJoin_Click(sender, e);
         }
     }
 }

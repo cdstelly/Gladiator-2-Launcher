@@ -39,6 +39,7 @@
             this.chkLog = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSettings = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.pnlJoinGame.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,6 +81,7 @@
             this.txtJoinIP.Size = new System.Drawing.Size(146, 20);
             this.txtJoinIP.TabIndex = 3;
             this.txtJoinIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtJoinIP.KeyDown += new System.Windows.Forms.KeyEventHandler(txtJoinIP_KeyDown);
             // 
             // pnlJoinGame
             // 
@@ -117,7 +119,7 @@
             // 
             this.chkLog.AutoSize = true;
             this.chkLog.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.chkLog.Location = new System.Drawing.Point(51, 427);
+            this.chkLog.Location = new System.Drawing.Point(218, 328);
             this.chkLog.Name = "chkLog";
             this.chkLog.Size = new System.Drawing.Size(119, 17);
             this.chkLog.TabIndex = 5;
@@ -145,13 +147,23 @@
             this.btnSettings.UseVisualStyleBackColor = true;
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(24, 418);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(146, 47);
+            this.btnClose.TabIndex = 8;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(406, 456);
+            this.ClientSize = new System.Drawing.Size(406, 474);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSettings);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.chkLog);
@@ -181,6 +193,7 @@
         private System.Windows.Forms.CheckBox chkLog;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnSettings;
+        private System.Windows.Forms.Button btnClose;
     }
 }
 
