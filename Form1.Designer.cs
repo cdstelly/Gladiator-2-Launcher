@@ -32,15 +32,10 @@
             this.btnSinglePlayer = new System.Windows.Forms.Button();
             this.btnJoinNetwork = new System.Windows.Forms.Button();
             this.btnHostNetwork = new System.Windows.Forms.Button();
-            this.txtJoinIP = new System.Windows.Forms.TextBox();
-            this.pnlJoinGame = new System.Windows.Forms.Panel();
-            this.btnJoin = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.chkLog = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSettings = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.pnlJoinGame.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,47 +68,6 @@
             this.btnHostNetwork.Text = "Host Network Game";
             this.btnHostNetwork.UseVisualStyleBackColor = true;
             this.btnHostNetwork.Click += new System.EventHandler(this.btnHostNetwork_Click);
-            // 
-            // txtJoinIP
-            // 
-            this.txtJoinIP.Location = new System.Drawing.Point(21, 33);
-            this.txtJoinIP.Name = "txtJoinIP";
-            this.txtJoinIP.Size = new System.Drawing.Size(146, 20);
-            this.txtJoinIP.TabIndex = 3;
-            this.txtJoinIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtJoinIP.KeyDown += new System.Windows.Forms.KeyEventHandler(txtJoinIP_KeyDown);
-            // 
-            // pnlJoinGame
-            // 
-            this.pnlJoinGame.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlJoinGame.Controls.Add(this.btnJoin);
-            this.pnlJoinGame.Controls.Add(this.label1);
-            this.pnlJoinGame.Controls.Add(this.txtJoinIP);
-            this.pnlJoinGame.Location = new System.Drawing.Point(188, 205);
-            this.pnlJoinGame.Name = "pnlJoinGame";
-            this.pnlJoinGame.Size = new System.Drawing.Size(196, 90);
-            this.pnlJoinGame.TabIndex = 4;
-            this.pnlJoinGame.Visible = false;
-            // 
-            // btnJoin
-            // 
-            this.btnJoin.Location = new System.Drawing.Point(46, 60);
-            this.btnJoin.Name = "btnJoin";
-            this.btnJoin.Size = new System.Drawing.Size(102, 21);
-            this.btnJoin.TabIndex = 5;
-            this.btnJoin.Text = "Join";
-            this.btnJoin.UseVisualStyleBackColor = true;
-            this.btnJoin.Click += new System.EventHandler(this.btnJoin_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(65, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "IP of Host";
             // 
             // chkLog
             // 
@@ -167,14 +121,11 @@
             this.Controls.Add(this.btnSettings);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.chkLog);
-            this.Controls.Add(this.pnlJoinGame);
             this.Controls.Add(this.btnHostNetwork);
             this.Controls.Add(this.btnJoinNetwork);
             this.Controls.Add(this.btnSinglePlayer);
             this.Name = "Form1";
             this.Text = "Gladiator 2 Launcher";
-            this.pnlJoinGame.ResumeLayout(false);
-            this.pnlJoinGame.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -186,10 +137,6 @@
         private System.Windows.Forms.Button btnSinglePlayer;
         private System.Windows.Forms.Button btnJoinNetwork;
         private System.Windows.Forms.Button btnHostNetwork;
-        private System.Windows.Forms.TextBox txtJoinIP;
-        private System.Windows.Forms.Panel pnlJoinGame;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnJoin;
         private System.Windows.Forms.CheckBox chkLog;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnSettings;

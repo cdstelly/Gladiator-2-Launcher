@@ -24,29 +24,21 @@ namespace Gladiator_2_Launcher
             settingsForm                      = new frmSettings();
         }
 
-        private void btnJoin_Click(object sender, EventArgs e)
-        {
-            process.StartInfo.Arguments = "C:\\UDK\\Binaries\\Win32\\UDK.exe " + txtJoinIP.Text;
-            process.StartInfo.Arguments = (chkLog.Checked == true) ? process.StartInfo.Arguments + " -log": process.StartInfo.Arguments;
-            process.Start();
-        }
-
         private void btnSinglePlayer_Click(object sender, EventArgs e)
         {
-            process.StartInfo.Arguments = "-log";
-            process.Start();
+            LaunchGame();
         }
 
         private void btnJoinNetwork_Click(object sender, EventArgs e)
-        {            
-            pnlJoinGame.Visible = !pnlJoinGame.Visible;
+        {
+            process.StartInfo.Arguments = "C:\\UDK\\Binaries\\Win32\\UDK.exe " + Microsoft.VisualBasic.Interaction.InputBox("Enter the IP of the host machine: ", "Join Game", "130.70.82.136").ToString();
+            LaunchGame();            
         }
 
         private void btnHostNetwork_Click(object sender, EventArgs e)
         {
             process.StartInfo.Arguments = "-server";
-            process.StartInfo.Arguments = (chkLog.Checked == true) ? process.StartInfo.Arguments + " -log" : process.StartInfo.Arguments;
-            process.Start();
+            LaunchGame();
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
@@ -56,6 +48,7 @@ namespace Gladiator_2_Launcher
 
         private void LaunchGame()
         {
+            process.StartInfo.Arguments = (chkLog.Checked == true) ? process.StartInfo.Arguments + " -log" : process.StartInfo.Arguments;
             try
             {
                 process.Start();
@@ -65,12 +58,6 @@ namespace Gladiator_2_Launcher
                 MessageBox.Show("File not found. Make sure that G2Launcher is located in the G2 Game folder.");
             }
 
-        }
-
-        private void txtJoinIP_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-                btnJoin_Click(sender, e);
         }
     }
 }
