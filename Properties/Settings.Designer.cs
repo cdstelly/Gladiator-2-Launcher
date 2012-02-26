@@ -58,5 +58,17 @@ namespace Gladiator_2_Launcher.Properties {
                 this["AmbientOcc"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ServerLog {
+            get {
+                return ((bool)(this["ServerLog"]));
+            }
+            set {
+                this["ServerLog"] = value;
+            }
+        }
     }
 }

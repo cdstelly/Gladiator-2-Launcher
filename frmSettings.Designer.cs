@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSettings));
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,7 +42,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.gbxGeneralSettings = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.chkLog = new System.Windows.Forms.CheckBox();
             this.gbxWindowSettings.SuspendLayout();
+            this.gbxGeneralSettings.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnSave
@@ -62,6 +67,7 @@
             this.btnCancel.TabIndex = 1;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // label1
             // 
@@ -128,6 +134,7 @@
             this.cmbResolution.Name = "cmbResolution";
             this.cmbResolution.Size = new System.Drawing.Size(121, 21);
             this.cmbResolution.TabIndex = 9;
+            this.cmbResolution.Text = "1024x768";
             // 
             // chkEnableWindowedMode
             // 
@@ -174,21 +181,57 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Enable Windowed Mode:";
             // 
+            // gbxGeneralSettings
+            // 
+            this.gbxGeneralSettings.Controls.Add(this.label7);
+            this.gbxGeneralSettings.Controls.Add(this.chkLog);
+            this.gbxGeneralSettings.Location = new System.Drawing.Point(17, 177);
+            this.gbxGeneralSettings.Name = "gbxGeneralSettings";
+            this.gbxGeneralSettings.Size = new System.Drawing.Size(197, 41);
+            this.gbxGeneralSettings.TabIndex = 9;
+            this.gbxGeneralSettings.TabStop = false;
+            this.gbxGeneralSettings.Text = "General Settings";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(103, 13);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Enable Server Logs:";
+            // 
+            // chkLog
+            // 
+            this.chkLog.AutoSize = true;
+            this.chkLog.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.chkLog.Location = new System.Drawing.Point(175, 15);
+            this.chkLog.Name = "chkLog";
+            this.chkLog.Size = new System.Drawing.Size(15, 14);
+            this.chkLog.TabIndex = 16;
+            this.chkLog.UseVisualStyleBackColor = false;
+            // 
             // frmSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(231, 262);
+            this.Controls.Add(this.gbxGeneralSettings);
             this.Controls.Add(this.gbxWindowSettings);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmSettings";
             this.Text = "Gladiator 2 Settings";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.frmSettings_Load);
             this.gbxWindowSettings.ResumeLayout(false);
             this.gbxWindowSettings.PerformLayout();
+            this.gbxGeneralSettings.ResumeLayout(false);
+            this.gbxGeneralSettings.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,5 +252,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.GroupBox gbxGeneralSettings;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.CheckBox chkLog;
     }
 }

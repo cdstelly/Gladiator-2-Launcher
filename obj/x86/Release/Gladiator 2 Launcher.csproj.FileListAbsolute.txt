@@ -1,0 +1,15 @@
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\bin\Release\Gladiator 2 Launcher.exe.config
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\bin\Release\Gladiator 2 Launcher.exe
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\bin\Release\Gladiator 2 Launcher.pdb
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\Gladiator_2_Launcher.frmGladiator2Launcher.resources
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\Gladiator_2_Launcher.Properties.Resources.resources
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\Gladiator_2_Launcher.frmSettings.resources
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\Gladiator 2 Launcher.exe
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\Gladiator 2 Launcher.pdb
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\bin\Release\Gladiator 2 Launcher.exe.manifest
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\bin\Release\Gladiator 2 Launcher.application
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\Gladiator 2 Launcher.exe.manifest
+C:\Users\cds0162\Desktop\Gladiator-2-Launcher\obj\x86\Release\Gladiator 2 Launcher.application
